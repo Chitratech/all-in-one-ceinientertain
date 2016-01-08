@@ -1,5 +1,5 @@
 body{ 
-  background: url('C:/Users/chandan/Desktop/HT/images/airlift4.png') no-repeat center center fixed; 
+  background: url('C:/Users/chandan/Desktop/HT/images/airlift4.png') no-repeat center center fixed; /*to set the background image*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,9 +7,70 @@ body{
 }
 
 img{
-	border:5px solid black;
+	border:5px solid black; /*to set the border of the image*/
 }
 
 h1{
-	color:purple
+	position:relative;
+    top: -380px;
+    left:10px;
+    right: 0px;
+    bottom: 100px;
+	color:purple /*to keep the sentance in h1 color*/
+}
+h2{
+	 position:relative;
+    top: 860px;
+    left: -10px;
+    right: 100px;
+    bottom: -100px;
+	text-align: center;
+	border:1px solid black;
+	 margin-top: 650px;
+    margin-bottom:200px;
+    margin-right: 20px;
+    margin-left: 800px;
+ 
+}
+
+
+div
+{
+	color: green;
+}
+#down{
+    position:relative;/*download video button pos*/
+    top: 400px;
+    left: 10px;
+    right: 0px;
+    bottom: 500px;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+}
+#ta{
+	color:red;
+} 
+table{
+    position:relative;
+    top: 350px;
+    left: 800px;
+    right: 0px;
+    bottom: 500px;
+	background-color:#D8D8D8;
+	font-family: arial;
+		border:1px solid white;
+}
+#tab{
+	border:3px solid black;
+color:blue;	/*to set the border of the image*/
+}
+#vid{
+    position:relative;
+    top: -390px;
+    left: 1px;
+    right: -100px;
+    bottom: 100px;
 }
